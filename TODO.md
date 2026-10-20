@@ -1,0 +1,11 @@
+# TODO — SMAILI SPORT CLUB
+
+- [x] **Accueil et présentation du club** — Créer un site web complet autour de SMAILI SPORT CLUB à Meknès, avec les informations disponibles sur le club et ses activités. Présenter les disciplines et les informations pratiques publiques, sans inventer les détails qui ne sont pas confirmés.
+- [x] **Champions** — Ajouter une section consacrée aux champions et résultats publiquement vérifiables, avec des visuels et un court contexte lorsqu’ils sont disponibles. Ne pas inventer les noms, titres ou accomplissements; l’accomplissement collectif référencé publiquement (trois premières places au tournoi amical de Meknès en 2020) et les athlètes présentés par le compte officiel sont contextualisés.
+- [x] **Galerie photo** — Montrer des photos/visuels du club provenant d’une source publique pertinente, avec un affichage cohérent dans le site.
+- [x] **Vidéos et clips Instagram** — Intégrer dans la page les posts et clips du compte public Instagram du club afin que les visiteurs puissent les consulter sur le site sans devoir ouvrir Instagram pour chaque contenu. Utiliser la méthode officielle d’intégration Instagram; la lecture dépend des règles d’intégration du compte et des services Instagram.
+- [x] **Avis et reviews** — Présenter les extraits d’avis publics concernant le club, avec attribution et contexte; ne pas inventer de témoignages ni leur attribuer une note non sourcée. Séparer le taux de recommandation Facebook des citations issues de la fiche publique.
+- [x] **Contact WhatsApp et Instagram** — Afficher des boutons directs et visibles vers WhatsApp et Instagram, ainsi que les coordonnées de contact publiques du club.
+- [x] **Localisation et accès** — Ajouter une carte interactive pour situer le club à Meknès et faciliter l’itinéraire à partir de l’adresse publique confirmée : C 109, Riyad Zitoun, Marjane. La recherche Google Maps utilise aussi le nom du club et l’adresse afin de viser la fiche de salle correspondante.
+- [x] **Navigation et responsive** — Permettre une navigation simple; adapter l’affichage aux téléphones et aux ordinateurs.
+- [x] **Logo et identité visuelle** — Utiliser le logo fourni par l’utilisateur. Garder le fond principal blanc et une palette jaune et noire inspirée du logo.

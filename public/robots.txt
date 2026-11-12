@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smaili-sport-club.vercel.app/sitemap.xml

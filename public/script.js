@@ -18,13 +18,17 @@
     languageArabic.classList.toggle('is-active', isArabic);
     languageButton.setAttribute('aria-label', isArabic ? 'Changer la langue vers le français' : 'Switch language to Arabic');
     document.title = isArabic
-      ? 'Smaili Sport Club — تايكوندو ولياقة في مكناس'
-      : 'Smaili Sport Club — Taekwondo & fitness à Meknès';
-    document.querySelector('meta[name="description"]').content = isArabic
-      ? 'اكتشف Smaili Sport Club في مكناس: تايكوندو، كمال الأجسام، اللياقة البدنية والأيروبيك. معلومات التواصل والآراء والموقع.'
-      : 'Découvrez Smaili Sport Club à Meknès : taekwondo, musculation, condition physique et aérobic. Contact, avis publics, clips du club et localisation.';
+      ? 'Smaili Sport Club à Meknès | تايكوندو ولياقة'
+      : 'Smaili Sport Club à Meknès | Taekwondo & Fitness';
+    const description = isArabic
+      ? 'اكتشف Smaili Sport Club في مكناس: التايكوندو، كمال الأجسام، اللياقة البدنية والأيروبيك في الرياض الزيتون.'
+      : 'Smaili Sport Club à Meknès : taekwondo, musculation, fitness, aérobic et condition physique à Riyad Zitoun. Découvrez le club et ses athlètes.';
+    document.querySelector('meta[name="description"]').content = description;
     document.querySelector('meta[property="og:title"]').content = document.title;
+    document.querySelector('meta[property="og:description"]').content = description;
+    document.querySelector('meta[property="og:locale"]').content = isArabic ? 'ar_MA' : 'fr_MA';
     document.querySelector('meta[name="twitter:title"]').content = document.title;
+    document.querySelector('meta[name="twitter:description"]').content = description;
   }
 
   languageButton.addEventListener('click', () => {
